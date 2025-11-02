@@ -15,7 +15,7 @@ class Program
         Console.Write($"EXE dosyasının yolunu girin: ");
         string? exeDosyaYolu = Console.ReadLine()?.Trim();
 
-        Console.Write($"7-Zip (7z.exe) yolunu girin [{varsayilan7zYolu}]: ");
+        Console.Write($"7-Zip (7z.exe) yolunu girin: [{varsayilan7zYolu}]: ");
         string? sevenZipYolu = Console.ReadLine()?.Trim();
         if (string.IsNullOrEmpty(sevenZipYolu)) sevenZipYolu = varsayilan7zYolu;
 
